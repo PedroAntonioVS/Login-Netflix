@@ -2,11 +2,11 @@ body{
     margin: 0;
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
     font-size: 16px;
-    background-color: black; 
     -webkit-font-smoothing: antialiased;
     background-image: url(/assets/NETFLIX\ background\ img.jpg);
 }
 .login_pai{
+    background: linear-gradient(180deg,rgba(0,0,0,.5) 0,transparent);
     color: #fff;
 }
 .titulo{
@@ -17,7 +17,7 @@ body{
     margin-top: 0;
 }
 .entrar_pai{
-    background-color: rgba(0,0,0,.75);
+    background-color: rgba(5, 5, 5, 0.904);
     border-radius: 4px;
     box-sizing: border-box;
     display: flex;
@@ -25,12 +25,13 @@ body{
     width: 450px;
     margin: auto;
     padding: 68px 68px 40px;
+    margin-bottom: 90px;
 }
 .entrar{
     color: #fff;
     font-size: 32px;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 28px;
 }
 h2{
     color: #8c8c8c;
@@ -38,5 +39,75 @@ h2{
 }
 .helpbuttons{
     display: flex;
-    justify-content: space-between;
+}
+.botton{
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 24px 0 12px;
+    background-color: #e50914;
+    color: white;
+    padding: 16px;
+    display: inline-block;
+    cursor: pointer;
+    border: 0;
+}
+.lenbrese{
+    text-align: left;
+    color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 6px
+}
+.ajuda{
+    padding:2px ;
+    color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 400;
+    background-color: transparent;
+    outline: 0;
+    padding-left:26% ;
+}
+
+.email{
+    background-color: #333;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    box-shadow:none;
+    box-sizing: border-box;
+    display: block;
+    font-size: 16px;
+    text-rendering: auto;
+    padding-left:20px ;
+}
+.senha{
+    background-color: #333;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    box-shadow:none;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-rendering: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding-left: 20px;
+}
+.box{
+    margin-top: 3px;
+    border: 1px solid;
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-color: grey;
+    border-radius: 2px;
+}
+img{
+    width: 200px;
+    margin-left:3%
 }
