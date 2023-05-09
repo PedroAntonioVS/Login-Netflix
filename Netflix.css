@@ -3,10 +3,10 @@ body{
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
-    background-image: url(/assets/NETFLIX\ background\ img.jpg);
+    background-image: url(/Netflix.html/assets/NETFLIX\ background\ img.jpg);
 }
 .login_pai{
-    background: linear-gradient(180deg,rgba(0,0,0,.5) 0,transparent);
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0.781) 0,transparent);
     color: #fff;
 }
 .titulo{
@@ -16,7 +16,7 @@ body{
     padding-left: 20px;
     margin-top: 0;
 }
-.entrar_pai{
+.box_pai{
     background-color: rgba(5, 5, 5, 0.904);
     border-radius: 4px;
     box-sizing: border-box;
@@ -26,6 +26,7 @@ body{
     margin: auto;
     padding: 68px 68px 40px;
     margin-bottom: 90px;
+    min-height: 660px;
 }
 .entrar{
     color: #fff;
@@ -57,7 +58,9 @@ h2{
     color: #b3b3b3;
     font-size: 13px;
     font-weight: 400;
-    padding-left: 6px
+    padding-left: 4px;
+    padding-top: 2px;
+    
 }
 .ajuda{
     padding:2px ;
@@ -98,7 +101,7 @@ h2{
     margin-bottom: 16px;
     padding-left: 20px;
 }
-.box{
+/* .box{
     margin-top: 3px;
     border: 1px solid;
     width: 10px;
@@ -106,8 +109,66 @@ h2{
     background-color: gray;
     border-color: grey;
     border-radius: 2px;
-}
+} */
 img{
     width: 200px;
     margin-left:3%
+}
+.chek{
+    background: #737373;
+    border-radius: 2px;
+    color: #333;
+    cursor: default;
+    display: block;
+}
+.new_here{
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 70px;
+}
+.link_assine{
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 5px;
+    margin-top: 70px;
+}
+.recaptcha{
+    color: #8c8c8c;
+    font-size: 13px;
+    text-align: left;
+    direction: ltr;
+}
+.margin11{
+    margin-top: 11px;
+}
+.footer{
+    background-color: rgba(5, 5, 5, 0.904);
+    padding: 30px 174px;
+    min-width: 190px;
+}   
+.footer-links{
+    display: flex;
+    text-decoration:none;
+    font-size: 13px; 
+    color: #737373;
+}
+.text-none{
+    text-decoration: none;
+    color: #737373;  
+}
+.footer-top{
+    padding-left: 60px;
+    color: #fff;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+
 }
